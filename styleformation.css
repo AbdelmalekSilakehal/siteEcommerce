@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+.container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer {
+  background-color: #009688;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  flex-shrink: 0;
+}
+
+header {
+  height: 73px;
+  background-color: #009688;
+  padding: 10px;
+}
+header img {
+  margin-left: 20px;
+  float: left;
+}
+
+nav {
+  margin-top: 13px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul.submenu {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  padding: 10px;
+  background-color: #009688;
+}
+
+.menu .dropdown:hover .submenu {
+  display: block;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  border-bottom-color: #000000;
+  color: #000000;
+}
+
+.banner {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.bannertext h1 {
+  font-size: 40px;
+  color: #009688;
+}
+
+.bannertext p {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.bannerbtn a {
+  display: inline-block;
+  background-color: #009688;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.bannerbtn a:hover {
+  background-color: #00796b;
+}
+
+.content {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: justify;
+}
+
+.content h2 {
+  color: #009688;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.content h3 {
+  color: #009688;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  margin-bottom: 15px;
+}
+
+.content ul {
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: #009688;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  flex-shrink: 0;
+}
+
+div.z {
+  display: inline;
+  padding-left: 200px;
+}
+.z img {
+  margin-right: 50px;
+  width: 17%;
+}
+/*style pour les pages de formations */
+
+.plan {
+  display: flex;
+  margin-left: 300px;
+}
+.prof {
+  font-size: 12px;
+}
+
+.col1 {
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.col2 {
+  padding: 10px 25px;
+}
+.col3 {
+  padding: 10px 25px;
+}
+.text {
+  margin-left: 100px;
+}
+.color {
+  background: url(image1.png);
+  background-size: cover;
+  background-position: center;
+  height: 200vh;
+  background-repeat: no-repeat;
+}
+.plan a {
+  text-decoration: none;
+  color: inherit;
+}

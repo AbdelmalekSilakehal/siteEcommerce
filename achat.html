@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="FR">
+  <head>
+    <title>Payment Page</title>
+    <link rel="stylesheet" type="text/css" href="achat.css" />
+    <link rel="icon" type="img" href="epaie.png" />
+  </head>
+  <body>
+
+    <div class="container1">
+<!-- MENU -->
+    <header>
+      <img src="logo1.png" width="5%">
+      <nav>
+          <ul class="menu">
+              <li><a href="index.html">Accueil</a></li>
+              <li class="dropdown"><a href="formation.html">Formation</a>
+                <ul class="submenu">
+                  <li> <a href="devweb.html">dev web</a></li>
+                  <li><a href="poo.html">poo</a></li>
+                  <li><a href="bdd.html">bdd</a></li>
+                  <li><a href="programmation.html">programmation</a></li>
+                </ul>
+              </li>
+              <li><a href="apropos.html">À Propos</a></li>
+      </nav>
+    </header>
+
+
+    <div class="container">
+      <h1>Détails de paiement</h1>
+      <form>
+        <div class="form-group">
+          <label for="Numéro de carte">Numéro de carte</label>
+          <input
+            type="text"
+            id="Numéro de carte"
+            name="Numéro de carte"
+            placeholder="Entrez votre Numéro de carte"
+          />
+        </div>
+        <div class="form-group">
+          <label for="Date d'expiration">Date d'expiration</label>
+          <input
+            type="text"
+            id="Date d'expiration"
+            name="Date d'expiration"
+            placeholder="MM/AA"
+          />
+        </div>
+        <div class="form-group">
+          <label for="cvv">CVV</label>
+          <input type="text" id="cvv" name="cvv" placeholder="CVV" />
+        </div>
+        <div class="form-group">
+          <label for="Nom du titulaire">Nom du titulaire</label>
+          <input
+            type="text"
+            id="Nom du titulaire"
+            name="Nom du titulaire"
+            placeholder="Entrez Nom du titulaire"
+          />
+        </div>
+        <div class="form-group-country">
+          <label for="Pays">Pays</label>
+          <select id="Pays" name="Pays">
+            <option value="" selected disabled>Sélectionnez votre pays</option>
+            <option value="DZ">Algérie</option>
+            <option value="FR">France</option>
+            <option value="Canada">Canada</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for=" Adresse"> Adresse</label>
+          <textarea
+            id=" Adresse"
+            name=" Adresse"
+            placeholder="Entrez votre Adresse"
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <label for="code postal">Code postal</label>
+          <input
+            type="text"
+            id="code postal"
+            name="code postal"
+            placeholder="donner le code postal"
+          />
+        </div>
+        <div class="form-group">
+          <label for="ville">Ville</label>
+          <input
+            type="text"
+            id="ville"
+            name="ville"
+            placeholder="Donner une ville"
+          />
+        </div>
+        <button type="submit">Effectuer le Paiement</button>
+      </form>
+    </div>
+
+  </div>
+
+    <footer>
+      <p>&copy; 2023 Formations KARMA. Tous droits réservés.</p>
+    </footer>
+  </body>
+</html>
