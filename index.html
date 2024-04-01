@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="img" href="logo1.png" />
+    <title>Acceuil</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <section class="banner">
+      <img src="" class="" />
+      <div class="bannertext">
+        <h1>Online Courses</h1>
+        <p>
+          Développez vos compétences numériques avec nos cours 100% à distance .
+        </p>
+        <div class="bannerbtn">
+          <a href="inscrire.html"><span></span>Inscription</a>
+          <a href="connecter.html"><span></span>Connexion</a>
+        </div>
+      </div>
+    </section>
+
+    <div id="sidenav">
+      <nav>
+        <ul>
+          <br />
+          <br />
+          <li><a href="apropo.html"> A PROPOS</a></li>
+          <li><a href="formation.html"> FORMATION</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="menubtn">
+      <img src="menu.png" />
+    </div>
+
+
+
+    <script>
+      var menubtn = document.getElementById("menubtn");
+      var sidenav = document.getElementById("sidenav");
+
+      sidenav.style.right = "-250px";
+
+      menubtn.onclick = function () {
+        if (sidenav.style.right == "-250px") {
+          sidenav.style.right = "0";
+        } else {
+          sidenav.style.right = "-250px";
+        }
+      };
+    </script>
+  </body>
+</html>

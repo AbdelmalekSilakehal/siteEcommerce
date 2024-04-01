@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #009688), url(img.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.banner img {
+  margin-top: 20px;
+}
+
+.bannertext {
+  text-align: center;
+  color: #fff;
+  padding-top: 180px;
+}
+.bannertext h1 {
+  font-size: 130px;
+  font-family: "kaushan script", cursive;
+}
+
+.bannertext p {
+  font-size: 20px;
+  font-style: italic;
+}
+.bannerbtn {
+  margin: 70px auto 0;
+}
+.bannerbtn a {
+  width: 150px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 12px 0;
+  color: #fff;
+  border: 0.5px solid #fff;
+  position: relative;
+  transition: color 0.5s;
+  z-index: 1;
+}
+.bannerbtn a span {
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.bannerbtn a:hover span {
+  width: 100%;
+}
+
+.bannerbtn a:hover {
+  color: #000;
+}
+
+#sidenav {
+  width: 120px;
+  height: 100vh;
+  position: fixed;
+  right: -250px;
+  top: 0;
+  background: #009688;
+  z-index: 2;
+  transition: 0.5s;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 50px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#menubtn {
+  width: 50px;
+  height: 50px;
+  background: #009688;
+  text-align: center;
+  position: fixed;
+  right: 30px;
+  top: 20px;
+  border-radius: 3px;
+  z-index: 3;
+  cursor: pointer;
+}
+
+#menubtn img {
+  width: 20px;
+  margin-top: 15px;
+}
+
+/* style inscrire et connecter*/
+
+body.inscrire {
+  padding: 0px;
+  margin: 0px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #009688), url(img.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+fieldset {
+  margin-top: 150px;
+  width: 27%;
+
+  box-shadow: 5px 5px 20px 1px 10px rgb(85, 85, 85);
+  border: solid 1px black;
+
+  border-radius: 10px 10px 10px 10px;
+  color: white;
+  height: 430px;
+
+  background-color: rgba(255, 255, 255, 0.17);
+  padding-bottom: 2px;
+  float: right;
+  margin-right: 10%;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-family: andalus;
+  letter-spacing: 3px;
+  text-align: center;
+  color: white;
+}
+
+hr.form {
+  border: 5px solid white;
+  border-radius: 10px;
+  width: 40%;
+}
+
+ul li {
+  margin-left: 20px;
+  color: white;
+}
+
+#submit {
+  margin: 20px 35px;
+  color: #005a51;
+  background-color: white;
+  width: 80%;
+  font-size: 17px;
+  border-radius: 20px;
+  border: 1px solid #001f1c;
+  padding: 10px;
+}
+
+#submit:hover {
+  color: white;
+  background-color: #005a51;
+}
+
+input {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 1px solid white;
+  color: white;
+  width: 100%;
+  margin-left: 10px;
+}
+form.inscrire {
+  backdrop-filter: blur(5px);
+  border-radius: 10px 10px 10px 10px;
+}
+div.inscrire {
+  margin-top: 16%;
+  margin-left: 10%;
+  color: white;
+  font-weight: 100;
+  float: left;
+}
+h1.inscrire {
+  font-size: 45px;
+}
+
+h2.inscrire {
+  font-size: 110%;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-weight: 100;
+}
+div.inscrire a {
+  width: 150px;
+  text-decoration: none;
+
+  color: #005a51;
+  border: 0.5px solid #fff;
+
+  padding: 12px 15px;
+  border-radius: 20px;
+  border: solid 1px black;
+  background-color: white;
+  font-weight: 150;
+}
+
+div.inscrire a:hover {
+  color: white;
+  background-color: #005a51;
+}
+a.acc {
+  width: 50px;
+  text-decoration: none;
+
+  color: white;
+  border: 0.5px solid #fff;
+
+  padding: 12px 15px;
+
+  border: solid 1px white;
+  background-color: transparent;
+  font-weight: 150;
+  margin-top: 20px;
+}
+a.acc:hover {
+  color: black;
+  background-color: white;
+}
+.inscrire img {
+  float: left;
+  margin-top: 20px;
+}
